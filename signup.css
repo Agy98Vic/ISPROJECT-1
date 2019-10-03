@@ -1,0 +1,110 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background:url("Anindo\images\background.jpg");
+}
+.title-bar{
+    width:100%;
+    height:150px;
+    background-color:#000;
+    color:white;
+}
+.title-bar h1{
+    color:white;
+    text-align:center;
+    font-size:50px;
+    animation: animated 15s linear infinite;
+    background-color: #000;
+    background-image: url('color.jpeg');
+    background-repeat: repeat-x;
+}
+.brand-image img {
+	
+	width: 73%;
+        height: 915px;
+        float: right;
+        margin-top: 65px;
+        margin-right: 120px;
+        margin:auto;
+
+    0% {
+        background-position: left 0px top 30px;
+    }
+    40% {
+        background-position: left 800px top 10px;
+    }
+}
+.form{
+    margin-top:80px;
+    width:450px;
+    height:auto;
+    background-color:rgba(0, 0, 0, 0.87);
+    margin-left:-20px;
+    margin-left:3%;
+    border-radius:5px;
+    border:1px greenyellow;
+    text-align:center;
+    float:left;
+}
+.form form{
+    border:1px greenyellow;
+}
+.form form input{
+    width:90%;
+    border-radius:1px;
+    height:35px;
+    border:none;
+    border-bottom:1px green;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+.form form input[type="submit"]{
+    width:100px;
+    height:35px;
+    background-color:rgb(63, 207, 63);
+    color:black;
+    float:left;
+    margin-left:10px;
+    cursor:pointer;
+}
+.head p{
+    color:white;
+    text-align:center;
+    font-size:40px;
+    text-decoration:underline;
+    margin-bottom:15px;
+
+}
+.form form input[type="radio"]{
+    color:white;
+    width:90px;
+    height:32px;
+    display:inline;
+}
+#login-link{
+    width:100px;
+    height:35px;
+    background-color:rgb(63, 207, 63);
+    color:black;
+    float:right;
+    margin-right:20px;
+    cursor:pointer;
+    text-align:center;
+    text-decoration:none;
+    text-align:center;
+}
+#login-link:hover{
+    text-decoration:underline;
+    background-color:#000;
+    color:white;
+    border-radius:12%;
+}
+.user-rank-border{
+    color:silver;
+    float:left;
+    margin-bottom:-10px;
+    margin-top:-5px;
+    
+}
